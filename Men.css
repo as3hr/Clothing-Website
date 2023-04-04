@@ -1,0 +1,106 @@
+*{text-decoration: none; font-family: 'Times New Roman', Times, serif; scroll-behavior: smooth; padding: 0%; margin: 0%;}
+
+h1{color: #ed7966; text-align: center; font-weight: bold; font-size:50px; transition:all 0.5s ease-in-out;}
+h1:hover{padding-left: 8px;}
+
+body{background-color: black;}
+
+label.logo{font-size: 30px; font-weight: bold; line-height: 80px; color: #ed7966; padding: 0 100px; transition:all 0.5s ease-in-out; }
+label.logo:hover{ color: #f5cac2; padding-left: 8px;}
+
+nav{ background-color:black; height: 80px; width:100%; font-family: monospace; font-size: 45px;}
+nav ul{ float: right; margin-right: 20px;}		
+nav ul li{display: inline-block; line-height: 80px;}
+nav ul li a{color:#ed7966; font-size: 17px; text-transform: uppercase; padding: 7px 13px; border-radius: 3px; font-weight: bolder; transition: all 1s ease-in-out;}
+a.active,a:hover{ background: #264143; color: #f5cac2;  padding-left: 15px; } 
+
+.main{
+        background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F08%2Flevis-2018-fall-winter-collection-lookbook-00.jpg?w=960&cbr=1&q=90&fit=max);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height:500px;
+        text-align: center;
+        padding-top: 15%;
+        padding-bottom: 5%;    
+        transition:all 1s ease-in-out 0.25s;
+    }
+.main:hover{background-image: url(https://e3.365dm.com/21/05/768x432/skynews-nick-kamen-model_5370779.jpg?20210505135200);}
+.main2
+{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.firstmain2{
+    padding-left: 80px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  
+  }
+  
+  .firstmain2::-webkit-scrollbar
+  {
+    display: none;
+  }
+
+  .secondmain2
+{
+  flex: 0 0 auto;
+  width: 350px;
+  height: 500px;
+  margin-right: 20px;
+}
+
+.main2img
+{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.main2img img{position: absolute;  width: 100%; height: 600px; -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.main2img img:hover{ -webkit-transform: scale(1.1);
+	transform: scale(1.1);}
+
+.main2third
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.btn
+{
+font-size: 20px;
+  float: left;
+  border-radius: 10%;
+color:#ed7966;
+width: 40%;
+background-color:#264143;
+transition:  all  1s ease-in-out 0.25s;
+}
+.btn:hover{background-color: white; color:black;}
+  
+.details
+{
+    width: 100%;
+    height: 100px;
+}
+.price
+{
+    color: #ed7966;
+    font-weight: 900;
+    font-size: 25px;
+}
+iframe{
+    height: 400px;
+    width: 100%;
+    border: 0;
+}

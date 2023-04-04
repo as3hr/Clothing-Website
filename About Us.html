@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Log in </title>
+        <script type="text/javascript" src="About Us.js"></script>
+        <link rel="stylesheet" type="text/css" href="About Us.css"/>
+    </head>
+    <body>
+        <nav>
+            <label class="logo"><b>JEANS AND DENIM</b></label>
+            <ul>
+                <li class="active"><a href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Jeans%20and%20Denim.html">HOME</a></li>
+                <li class="active"><a href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Men.html">MEN</a></li>
+                <li class="active"><a href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Women.html">WOMEN</a></li>
+                <li class="active"><a href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Kids.html">KIDS</a></li>
+                <li class="active"><a href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/About%20Us.html">Log in</a></li>
+            </ul>
+        </nav>
+
+        <br>
+        <hr>
+        <br>
+        <div align="center">
+            <form name="f1" onsubmit="return matchpass() && naam() && matchpass2() && mailvalidation() && num()"  action="Jeans and Denim.html">
+                <h1><b> LOG IN/SIGN UP </b></h1>
+                <b>Stay Updated!</b>
+                <br><br>
+                Name: <input type="text" name="name" class="input"/>
+                <br>
+                <br>
+                Email: <input type="text" name="email" class="input"/>
+                <br>
+                <br>
+                Password: <input type="password" name="password" class="input"/>
+                <br><br>
+                Re-Type Password: <input type="password" name="password2" class="input"/>
+                <br><br>
+                Phone Number: <input type="tel" name="number" class="input"/>
+                <br>
+                <br>
+                <button type="submit" class="btn" onclick="matchpass() && naam() && matchpass2() && mailvalidation() && num()"> SUBMIT </button>
+                <br><br>
+                <hr align="center">
+                <br>
+                Forgot Password?
+                <br><br>
+                <a href="https://accounts.google.com/SignUp?hl=en" target="blank"><p class="pp"><u> Sign Up with Google </u></p></a>
+            </form>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <iframe src="janddfooter.html"></iframe>
+
+    </body>
+</html>

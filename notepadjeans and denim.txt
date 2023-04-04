@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head> 
+<title> JEANS AND DENIM </title>
+<link rel="stylesheet" type="text/css" href="Jeans and Denim.css"/>
+</head>
+<body class="a">
+    <div>
+
+        <div>
+            <p class="a4">THE DENIM STORE</p>
+            <a class="a1" href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/About%20Us.html" target="_blank">ABOUT US</a>
+            <a class="a1" href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Kids.html" target="_blank">KIDS</a>
+            <a class="a1" href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Women.html" target="_blank">WOMEN</a>
+            <a class="a1" href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Men.html" target="_blank">MEN</a>
+            <a class="a1" href="file:///D:/Semester%201/Semester%201/IICT/IICT%20LAB/Finals/Pages/Jeans%20and%20Denim.html" target="_blank">HOME</a> 
+        </div>              
+
+        <div>
+            <img class="a2" src="D:\Semester 1\Semester 1\IICT\IICT LAB\Finals\Images\front.jpg"/>
+        </div>
+
+    </div>
+</body>
+</html>
+.a{ background-color: black; }
+.a1{ color: white; margin-right: 1cm; float: right; margin-top: 20px; }
+.a2{ height: 800px; width: 1578px; }
+.a3{ width:1578px; height:1000px; }
+.a4{text-align: center; font-family: Arial, Helvetica, sans-serif; float: left; margin-right: 200px; font-size: larger; color: white; margin-left: 650px;}
+.a5{ margin-top: 20px;  background-color:white; font-size: medium; margin-right: 100px;}
+
+			<h6>Our Clients !</h6>
+			<h4>Mr Shahid Khan Afridi</h4>
+			<h3>They have over 15 year experience, Over 20,000 people work for them<br> I got my own house from them in
+				phase VIII. Learn more about them.<br> work!Lorem ipsum vive dolor sit amet.</h3>
+			<h3>We have over 15 year experience, Over 20,000 people work for us<br> in more than 70 countries all over
+				the world. Learn more about our<br> work!Lorem ipsum vive dolor sit amet.</h3>
+				
+				<div id="main2">
+		<div id="descpic">
+			<img src="images/pen2.jpg">
+		</div>
+		<div id="desc">
+			<h6>Who we are</h6>
+			<h4>The experts in local and <br>international property</h4>
+			<h3>We have over 15 year experience, Over 20,000 people work for us<br> in more than 70 countries all over
+				the world. Learn more about our<br> work!Lorem ipsum vive dolor sit amet.</h3>
+			<br><br>
+			<ul>
+				<li>Outstanding property</li>
+				<li>Get expert advice</li>
+				<li>Specialist Service</li>
+			</ul>
+		</div>
+	</div>
+	<div id="main3">
+		<div id="descpic2">
+			<img src="images/clients.jpg">
+		<div>
+		<a href="#"><img id="back" src="images/back.png"></a>
+	</div>
+
+	#descpic img, #descpic2 img{
+        width: 400px;
+        height: 500px;
+        margin-left: 220px;
+    }
+    #descpic,#descpic2{
+        margin-top: 20px;
+        float: left;
+    }
+    #desc,#desc2{
+        background-color: silver;
+        margin-top: 20px;
+        padding-left: 15px;
+        width: 45%;
+        height: 500px;
+        float: left;
+        font-size: 20px;
+    }
+    #desc2 h3,#desc h3{
+        padding-top: 30px;
+        font-size: 20px;
+        color: darkblue;
+    }
+    #desc2 h6,#desc h6{
+        padding-top: 30px;
+        font-size: 30px;
+        color: black;
+    }
+    #desc2 h4,#desc h4 {
+        padding-top: 30px;
+        font-size: 30px;
+        color: maroon;
+    }
+    #desc li, #desc2 li{
+        padding-top: 20px;
+        display: block;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #back{
+        width: 60px;
+        height: 60px;
+        margin-top: 550px;
+    }

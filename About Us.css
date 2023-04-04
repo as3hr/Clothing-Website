@@ -1,0 +1,29 @@
+*{text-decoration: none; padding: 0%; margin: 0%;  font-family: 'Times New Roman', Times, serif; scroll-behavior: smooth; padding: 0; margin:0;}
+
+label.logo{font-size: 30px; font-weight: bold; line-height: 80px; color: #ed7966; padding: 0 100px; transition:all 0.5s ease-in-out; }
+label.logo:hover{ color: #f5cac2; padding-left: 8px;}
+
+nav{ background-color:black; height: 80px; width:100%; font-family: monospace; font-size: 45px;}
+nav ul{ float: right; margin-right: 20px;}
+nav ul li{display:inline-block; line-height: 80px;}
+nav ul li a{color:#ed7966; font-size: 17px; text-transform: uppercase; padding: 7px 13px; border-radius: 3px; font-weight: bolder; transition: all 1s ease-in-out;}
+a .active,a:hover{ background: #264143; color: #f5cac2;  padding-left: 15px; } 
+
+body{ background-color:black; }
+form{ text-align: center; padding:30px; transition:all 1s ease-in-out 0.025s; margin:10px; background-color:white ; width: 30%; height: 550px; font-size: 20px; border-radius: 50px;}
+form:hover{height: 600px; width: 35%; background-color:#f5cac2;}
+form h1{ font-size: 40px; font-weight: bold; font-family: cursive; color:#ed7966; }
+form .input{ border-radius: 100px; color:#ed7966;  }
+form .btn{background-color: black; color:#f5cac2; transition: 0.5s ease-in-out; border-radius: 10px; font-size: 20px; font-family: monospace; font-weight: bold;}
+form .btn:hover{ background-color: #264143; color: #ed7966; }
+
+hr { width:75%; text-align: center; color: #264143; margin-left: 12%;}
+
+.pp{font-size: 25px; color: #264143; text-decoration: 0%; transition: all 1s ease-in-out;}
+.pp:hover{color:white;}
+
+iframe{
+    height: 400px;
+    width: 100%;
+    border: 0;
+}
